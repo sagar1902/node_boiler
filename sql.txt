@@ -1,0 +1,7 @@
+CREATE TABLE `contests` (
+  `id` int(11) NOT NULL,
+  `spots` int(11) NOT NULL DEFAULT 2,
+  `entry` int(11) NOT NULL,
+  `prize` int(11) NOT NULL,
+  `winner` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
